@@ -1,19 +1,20 @@
 {
   "name": "bot-wa-resi",
   "version": "1.0.0",
+  "description": "Bot WhatsApp untuk kirim resi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Streamline Cargo",
+  "license": "MIT",
   "dependencies": {
-    "express": "^5.1.0",
-    "multer": "^1.4.5-lts.2",
-    "puppeteer": "^24.8.2",
+    "express": "^4.18.4",
+    "express-fileupload": "^1.4.0",
+    "whatsapp-web.js": "^1.21.1",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.27.0"
+    "mime-types": "^2.1.35"
   }
 }
+
